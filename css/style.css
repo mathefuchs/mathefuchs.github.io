@@ -10,6 +10,19 @@
 * 	Template Style 
 *
 * ======================================================= */
+
+#hello {
+  display: inline-block;
+}
+
+#terminal-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: inset(0);
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
@@ -349,7 +362,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .info {
     margin-bottom: 3em;
   }
